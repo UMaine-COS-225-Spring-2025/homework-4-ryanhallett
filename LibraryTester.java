@@ -5,10 +5,16 @@ public class LibraryTester {
         BookShelf shelfT = new BookShelf('T');
         System.out.println(shelfO);
         System.out.println(shelfT);
-        System.out.println("The Heart of the Betrayed");
-        System.out.println("Our Hill of Stars");
-        System.out.println("One of a Kind");
-        System.out.println("The Vision of Roses");
+
+        Book One = new Book("The Heart of the Betrayed", "Crime");
+        Book Two = new Book("Our Hill of Stars", "Fantasy");
+        Book Three = new Book("One of a Kind", "Science Fiction");
+        Book Four = new Book("The Vision of Roses", "Romance");
+
+        System.out.println(One);
+        System.out.println(Two);
+        System.out.println(Three);
+        System.out.println(Four);
         
         shelfT.addBook("The Heart of the Betrayed", "Crime");
         shelfT.addBook("Our Hill of Stars", "Fantasy");
