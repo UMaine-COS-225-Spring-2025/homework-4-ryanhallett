@@ -27,7 +27,7 @@ public class BookShelf {
     }
 
     public void addBook(Book book) {
-        if (myList.size() < 8) {
+        if (myList.size() <= 8) {
             if (book.title.charAt(0) == firstLetter) {
                 myList.add(book);
             }
